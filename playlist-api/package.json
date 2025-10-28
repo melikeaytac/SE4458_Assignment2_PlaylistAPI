@@ -1,0 +1,22 @@
+{
+  "name": "playlist-api",
+  "version": "1.0.0",
+  "description": "Simple in-memory Playlist REST API with Swagger for SE4458 Assignment 2",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "lint": "echo \"(optional) add eslint\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
