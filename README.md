@@ -9,6 +9,10 @@ npm install
 npm start
 # Open http://localhost:3000/swagger
 ```
+## Live Site
+
+* https://se4458-playlist-api2.azurewebsites.net/swagger/
+
 
 ## Endpoints
 
