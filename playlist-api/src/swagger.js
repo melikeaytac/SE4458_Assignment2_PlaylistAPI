@@ -14,8 +14,10 @@ const options = {
       description: 'SE4458 Assignment 2 - in-memory Playlist REST API with Swagger',
     },
     servers: [
-      { url: 'http://localhost:3000', description: 'Local' }
-    ]
+      {
+        url: '/',
+        description: 'Current host'
+      }    ]
   },
   apis: [resolve(__dirname, './routes/*.js')],
 };
